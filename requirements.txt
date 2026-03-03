@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────
+# Phase 1 — RAG PDF Assistant
+# ─────────────────────────────────────────
+
+# LLM Orchestration
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-groq==0.1.9
+
+# Embeddings (OpenAI embeddings — best quality, affordable)
+langchain-openai==0.1.23
+openai==1.40.0
+
+# Vector Store
+chromadb==0.5.3
+
+# PDF Processing
+pymupdf==1.24.9
+
+# Tokenization (for chunk size control)
+tiktoken==0.7.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Data validation
+pydantic==2.8.2

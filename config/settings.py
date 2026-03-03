@@ -8,13 +8,13 @@ load_dotenv()
 # API Keys
 # ─────────────────────────────────────────
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # no longer needed for embeddings
 
 # ─────────────────────────────────────────
 # Model Config
 # ─────────────────────────────────────────
-LLM_MODEL = "llama-3.1-8b-instant"        # Groq model (fast + free)
-EMBEDDING_MODEL = "text-embedding-3-small" # OpenAI embedding model
+LLM_MODEL = "llama-3.1-8b-instant"          # Groq LLM (free)
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"        # HuggingFace local embeddings (free)
 
 # ─────────────────────────────────────────
 # Chunking Config
