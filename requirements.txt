@@ -3,25 +3,55 @@
 # ─────────────────────────────────────────
 
 # LLM Orchestration
-langchain==0.2.16
-langchain-community==0.2.16
-langchain-groq==0.1.9
-
-# Embeddings (OpenAI embeddings — best quality, affordable)
-langchain-openai==0.1.23
-openai==1.40.0
+langchain
+langchain-community
+langchain-groq
+langchain-core
+langchain-huggingface
 
 # Vector Store
-chromadb==0.5.3
+chromadb
 
 # PDF Processing
-pymupdf==1.24.9
+pymupdf
 
-# Tokenization (for chunk size control)
-tiktoken==0.7.0
+# Tokenization
+tiktoken
 
 # Environment variables
-python-dotenv==1.0.1
+python-dotenv
 
 # Data validation
-pydantic==2.8.2
+pydantic
+
+# Local Embeddings
+sentence-transformers
+
+# ─────────────────────────────────────────
+# Phase 2 — Production Quality
+# ─────────────────────────────────────────
+
+# BM25 sparse retrieval
+rank-bm25
+
+# Cohere re-ranking API
+cohere
+
+# LangGraph stateful pipeline
+langgraph
+
+# Numpy for RRF calculations
+numpy
+
+# ─────────────────────────────────────────
+# Phase 3 — Evaluation
+# ─────────────────────────────────────────
+
+# RAGAS evaluation framework
+ragas
+
+# HuggingFace datasets (required by RAGAS)
+datasets
+
+# Pandas for report generation
+pandas
