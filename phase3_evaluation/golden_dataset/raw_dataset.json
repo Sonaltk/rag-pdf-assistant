@@ -2,16 +2,16 @@
   "metadata": {
     "source_pdf": "moac.pdf",
     "total_chunks": 38,
-    "total_pairs": 105,
+    "total_pairs": 104,
     "failed_chunks": 0,
     "generated_by": "llama-3.1-8b-instant",
-    "created_at": "2026-03-08T17:48:36.110507",
+    "created_at": "2026-03-08T19:42:01.725018",
     "status": "raw \u2014 needs curation"
   },
   "qa_pairs": [
     {
-      "id": "7bf30aaa6d99",
-      "question": "What is the main issue with underwater images?",
+      "id": "b9460070298b",
+      "question": "What is the primary issue affecting underwater images?",
       "ground_truth": "color cast and low visibility due to inherent factors such as light absorption, scattering, and turbidity.",
       "question_type": "factual",
       "source_chunk_id": "108c25e1c03bd45b",
@@ -20,9 +20,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "58b10effd19d",
-      "question": "What is the purpose of the proposed restoration framework?",
-      "ground_truth": "to restore their natural clarity and improve their visual quality.",
+      "id": "c34ed3e1d370",
+      "question": "What is the main goal of the proposed restoration framework?",
+      "ground_truth": "restore their natural clarity and improve their visual quality.",
       "question_type": "factual",
       "source_chunk_id": "108c25e1c03bd45b",
       "source_page": 1,
@@ -30,9 +30,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "edf7feffb2f6",
-      "question": "What implications does the quality degradation of underwater images have on underwater research and applications?",
-      "ground_truth": "The quality degradation of underwater images is unfavorable for underwater research and applications.",
+      "id": "73ab3eebaf08",
+      "question": "What implications does the proposed framework have for the field of underwater research and applications?",
+      "ground_truth": "The proposed framework has significant implications for the field of underwater research and applications, as it aims to restore natural clarity and improve visual quality of underwater images, which are essential for various marine research fields, including marine military fields, marine environmental protection, and marine engineering construction.",
       "question_type": "inferential",
       "source_chunk_id": "108c25e1c03bd45b",
       "source_page": 1,
@@ -52,7 +52,7 @@
     {
       "id": "6322a42ec211",
       "question": "Why is high video clarity essential for underwater observation and engineering operations?",
-      "ground_truth": "precise maneuvering",
+      "ground_truth": "for precise maneuvering",
       "question_type": "factual",
       "source_chunk_id": "1449021f42acd0af",
       "source_page": 1,
@@ -62,7 +62,7 @@
     {
       "id": "9a931aa80086",
       "question": "What implications does the advancement of underwater image restoration have for the operation of Remotely Operated Vehicles (ROVs)?",
-      "ground_truth": "High video clarity is essential for precise maneuvering of ROVs, and the advancement of underwater image restoration could improve the video clarity, thereby enhancing the operation of ROVs.",
+      "ground_truth": "High video clarity is essential for precise maneuvering, and the advancement of underwater image restoration would likely improve the accuracy of ROV operations, enabling more precise underwater observation and engineering operations.",
       "question_type": "inferential",
       "source_chunk_id": "1449021f42acd0af",
       "source_page": 1,
@@ -70,8 +70,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "c12fb24ef421",
-      "question": "What are the three main challenges in underwater image quality?",
+      "id": "b3279c7c4635",
+      "question": "What are the main issues with underwater images captured by ROVs?",
       "ground_truth": "severe color distortions, detail blurring, and insufficient contrast",
       "question_type": "factual",
       "source_chunk_id": "a75a8a9ec7354e21",
@@ -80,9 +80,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "4049c5847c74",
-      "question": "What is the main limitation of deep learning methods for underwater image processing?",
-      "ground_truth": "obtaining high-quality, large-scale and paired underwater images",
+      "id": "cc3e7210dc81",
+      "question": "What is a limitation of deep learning methods for underwater image processing?",
+      "ground_truth": "the highly dynamic and complex underwater environment can further contribute to the instability of deep learning methods",
       "question_type": "factual",
       "source_chunk_id": "a75a8a9ec7354e21",
       "source_page": 2,
@@ -90,9 +90,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "52834de77073",
-      "question": "What might be the underlying reason for the limitations of deep learning methods in underwater image processing?",
-      "ground_truth": "The highly dynamic and complex underwater environment can further contribute to the instability of deep learning methods.",
+      "id": "747066942cfe",
+      "question": "What might be the consequence of neglecting image texture details in underwater image enhancement methods?",
+      "ground_truth": "color distortion, noise amplification, and oversaturation in the enhanced images",
       "question_type": "inferential",
       "source_chunk_id": "a75a8a9ec7354e21",
       "source_page": 2,
@@ -100,8 +100,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "2d772fcf6587",
-      "question": "What is the name of the proposed adaptive dehazing algorithm in the second stage of the system?",
+      "id": "1a9a63217d76",
+      "question": "What is the name of the proposed adaptive dehazing algorithm?",
       "ground_truth": "the dark channel",
       "question_type": "factual",
       "source_chunk_id": "9beeb8fc485db9dd",
@@ -110,9 +110,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "15042a1769b9",
-      "question": "What is the name of the algorithm proposed by He et al. in 2011 for dehazing?",
-      "ground_truth": "the Dark Channel Prior (DCP)",
+      "id": "651f94f09f1f",
+      "question": "In what year was the Dark Channel Prior (DCP) proposed by He et al.?",
+      "ground_truth": "2011",
       "question_type": "factual",
       "source_chunk_id": "9beeb8fc485db9dd",
       "source_page": 2,
@@ -120,9 +120,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "a72940e52c5d",
-      "question": "How do the limitations of existing underwater imaging methods, such as neglecting light absorption effects, impact the effectiveness of deep learning methods in this context?",
-      "ground_truth": "The limitations of existing underwater imaging methods, such as neglecting light absorption effects, can further contribute to the instability of deep learning methods.",
+      "id": "06e0cf295f5a",
+      "question": "What implications does the limitation of the Dark Channel Prior (DCP) on underwater images have for the development of effective underwater imaging systems?",
+      "ground_truth": "The limitation of DCP on underwater images, due to its neglect of the light absorption effects of the underwater medium, suggests that a more comprehensive approach to underwater imaging is necessary, such as the multiscale optical attenuation compensation and adaptive dark channel dehazing proposed in this work.",
       "question_type": "inferential",
       "source_chunk_id": "9beeb8fc485db9dd",
       "source_page": 2,
@@ -140,9 +140,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "8e1781e73f5c",
-      "question": "What is the primary limitation of deep-learning methods for underwater image enhancement?",
-      "ground_truth": "extensive data and prolonged training periods",
+      "id": "5f7017a50e27",
+      "question": "What is the name of the Generative Adversarial Network (GAN) designed by Jiang et al.?",
+      "ground_truth": "Lightweight Cascaded Network (LCNet)",
       "question_type": "factual",
       "source_chunk_id": "e4240f81759f69a0",
       "source_page": 2,
@@ -150,9 +150,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "9e094717d913",
-      "question": "How might the limitations of deep learning methods for underwater image enhancement be related to the characteristics of the data used in these methods?",
-      "ground_truth": "The limitations of deep learning methods for underwater image enhancement, such as requiring extensive data and prolonged training periods, are likely related to the fact that most of the data used in these methods is artificially synthesized, which differs from real-world underwater images.",
+      "id": "1445a6de297c",
+      "question": "What might be a potential limitation of relying on artificially synthesized data for training deep-learning methods for underwater image enhancement?",
+      "ground_truth": "It might limit the robustness and generalization capabilities of these methods.",
       "question_type": "inferential",
       "source_chunk_id": "e4240f81759f69a0",
       "source_page": 2,
@@ -160,9 +160,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "316976d0b716",
-      "question": "What is the typical depth at which the red color wavelength disappears?",
-      "ground_truth": "about 5 m",
+      "id": "06272f7fd2d4",
+      "question": "What is the primary function of the large color channel in the proposed multi-scale optical attenuation compensation method?",
+      "ground_truth": "To increase its dynamic range",
       "question_type": "factual",
       "source_chunk_id": "07b3986821ef5a5d",
       "source_page": 3,
@@ -170,9 +170,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "cecbe6bb79a2",
-      "question": "How are the three color channels of the image redefined in the multi-scale optical attenuation compensation method?",
-      "ground_truth": "according to the average value of each color channel of the original image",
+      "id": "8589394c45b1",
+      "question": "At what depth does the red color wavelength disappear?",
+      "ground_truth": "about 5 m",
       "question_type": "factual",
       "source_chunk_id": "07b3986821ef5a5d",
       "source_page": 3,
@@ -182,7 +182,7 @@
     {
       "id": "bd650bf85dfd",
       "question": "How does the proposed multi-scale optical attenuation compensation method address the limitations of previous color correction methods?",
-      "ground_truth": "It proposes a multi-scale approach and uses an iterative operation to obtain underwater images with more natural colors, whereas previous methods are not mentioned to have used such a multi-scale approach.",
+      "ground_truth": "The proposed method differs from previous color correction methods by incorporating multiple scales for color channel compensation and an iterative operation to minimize color loss, as referenced in [21].",
       "question_type": "inferential",
       "source_chunk_id": "07b3986821ef5a5d",
       "source_page": 3,
@@ -190,8 +190,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "ea7f8f534b77",
-      "question": "What is defined as the large color channel?",
+      "id": "e5411622a53b",
+      "question": "What is the definition of the large color channel?",
       "ground_truth": "Il",
       "question_type": "factual",
       "source_chunk_id": "40ce01cfa3d5a332",
@@ -210,9 +210,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "82a81666dfc7",
-      "question": "What might be the implication of the large color channel having the least amount of loss, according to the gray-world hypothesis?",
-      "ground_truth": "It suggests that increasing the dynamic range of the large color channel could potentially improve the overall image quality.",
+      "id": "d8f40777de49",
+      "question": "Why is the linear transmission approach used to increase the dynamic range of the large color channel, despite the gray-world hypothesis suggesting similarities in RGB channel distributions?",
+      "ground_truth": "The linear transmission approach is used because the large color channel has the least amount of loss, implying that it requires more dynamic range to accurately represent real images.",
       "question_type": "inferential",
       "source_chunk_id": "40ce01cfa3d5a332",
       "source_page": 3,
@@ -220,8 +220,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "2aee65971e60",
-      "question": "What is the threshold value for the minimum color loss constraint in this paper?",
+      "id": "a91f26790de0",
+      "question": "What is the threshold for the minimum color loss constraint in this paper?",
       "ground_truth": "10-2",
       "question_type": "factual",
       "source_chunk_id": "51da68c4b7e488b5",
@@ -240,9 +240,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "5177ddf47daa",
-      "question": "What implications does the iterative optimization process have on the color channels, and how does it relate to the minimum color loss function?",
-      "ground_truth": "The iterative optimization process aims to make the minimum color loss function satisfy the set threshold of 10^-2, which implies that the process iteratively adjusts the color channels (Il, Im, Is) to minimize the color loss between them, as measured by the loss function in Eq. (5).",
+      "id": "70d5c3ddc7b1",
+      "question": "What implications does the iterative optimization process have on the color channels, and how does it relate to the minimum color loss constraint?",
+      "ground_truth": "The iterative optimization process refines the color channels until the minimum color loss constraint, set to 10^-2, is satisfied, ensuring similar mean and histogram distributions across all color channels.",
       "question_type": "inferential",
       "source_chunk_id": "51da68c4b7e488b5",
       "source_page": 4,
@@ -270,9 +270,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "5619a35b18ff",
-      "question": "How might the proposed adaptive dehazing algorithm be impacted if the assumption of selecting the brightest pixel point as the global background light Ac(x) is violated?",
-      "ground_truth": "The algorithm may not reliably estimate the global background light, which could lead to inaccurate transmission map estimation and ultimately affect the quality of the dehazed image.",
+      "id": "7112ea2e21d4",
+      "question": "What might be a potential limitation of relying solely on the brightest pixel point in the underwater image to estimate the global background light?",
+      "ground_truth": "Variations in lighting conditions and the presence of white objects or noise can violate this assumption.",
       "question_type": "inferential",
       "source_chunk_id": "c0a9e1fd4b0c6285",
       "source_page": 4,
@@ -280,9 +280,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "4f0805446072",
-      "question": "What is the primary method for selecting the global background light in an underwater image?",
-      "ground_truth": "the brightest pixel point",
+      "id": "3bd89dfcac3e",
+      "question": "What is the primary step in the proposed adaptive dehazing algorithm?",
+      "ground_truth": "global background light estimation and transmission map estimation",
       "question_type": "factual",
       "source_chunk_id": "4f726d552a7dfd8c",
       "source_page": 4,
@@ -290,8 +290,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "a38f38d4a9de",
-      "question": "What is utilized as a criterion for selecting the global background light when the brightest pixel point assumption is violated?",
+      "id": "21d6dedaf519",
+      "question": "What criterion is initially utilized to select the global background light?",
       "ground_truth": "image brightness",
       "question_type": "factual",
       "source_chunk_id": "4f726d552a7dfd8c",
@@ -300,9 +300,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "ddb94a1d1490",
-      "question": "How might the presence of white objects or noise in an underwater image impact the reliability of the global background light estimation?",
-      "ground_truth": "Variations in lighting conditions and the presence of white objects or noise can violate the assumption of selecting the brightest pixel point as the global background light, making it necessary to utilize image brightness as a criterion for selection.",
+      "id": "7c48b34254a1",
+      "question": "What are the implications of variations in lighting conditions and the presence of white objects or noise on the global background light estimation?",
+      "ground_truth": "They can violate the assumption that the brightest pixel point in the underwater image is usually selected as the global background light.",
       "question_type": "inferential",
       "source_chunk_id": "4f726d552a7dfd8c",
       "source_page": 4,
@@ -310,8 +310,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "1d5f39a68051",
-      "question": "What is the value of the adjustable parameter \u03b5?",
+      "id": "6202873df7ab",
+      "question": "What is the value of \u03b5 in the given paper?",
       "ground_truth": "0.2",
       "question_type": "factual",
       "source_chunk_id": "a45ca5877c749112",
@@ -320,8 +320,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "d7c6263a5048",
-      "question": "What is the value of the experiential value s?",
+      "id": "fb3ebf9a7a07",
+      "question": "What is the value of s in the sigmoid function S(a, b)?",
       "ground_truth": "32",
       "question_type": "factual",
       "source_chunk_id": "a45ca5877c749112",
@@ -330,9 +330,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "91698aafd377",
-      "question": "What is the potential implication of using a quadratic quadtree hierarchical search for the selected high-brightness regions, and how might it relate to the overall accuracy of background light selection?",
-      "ground_truth": "The quadratic quadtree hierarchical search is performed to select the highest scoring regions, which could potentially lead to more accurate background light selection, as it focuses on areas that are likely to be flat and blurred, away from the camera.",
+      "id": "720bda1bb443",
+      "question": "How does the addition of an effective constraint to the brightness region in the image affect the overall background light selection process?",
+      "ground_truth": "The addition of the effective constraint helps to mitigate the error of background light selection by suspended particles, as it takes into account the lighting conditions of the real photos taken underwater.",
       "question_type": "inferential",
       "source_chunk_id": "a45ca5877c749112",
       "source_page": 5,
@@ -340,8 +340,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "6c854e4d5216",
-      "question": "What is the percentage of the highest pixel point in the dark channel map used to define the candidate pixel point for the background light?",
+      "id": "e753bbb6145d",
+      "question": "What percentage of the highest pixel points in the dark channel map is used to define the candidate pixel point for the background light?",
       "ground_truth": "0.1%",
       "question_type": "factual",
       "source_chunk_id": "0f7aef5364d7b7ab",
@@ -350,8 +350,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "387621dc57b3",
-      "question": "What is the threshold value \u03c3 set to in this paper for the average value of the red channel?",
+      "id": "94f45e21a443",
+      "question": "What is the threshold value \u03c3 set to in this paper for the adaptive dark channel estimation algorithm?",
       "ground_truth": "56",
       "question_type": "factual",
       "source_chunk_id": "0f7aef5364d7b7ab",
@@ -360,9 +360,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "9147ec5a58f8",
-      "question": "How does the proposed adaptive dark channel estimation algorithm for transmission maps address the limitations of existing methods, such as the Underwater Dark Channel Prior (UDCP)?",
-      "ground_truth": "The proposed algorithm addresses the limitations of existing methods by considering the varying light attenuation rates in different water types, whereas the UDCP relies solely on blue and green channels, which may not be effective in all scenarios.",
+      "id": "1a7b360c5bfc",
+      "question": "What implications does the adaptive dark channel estimation algorithm have on the estimation of transmission maps compared to traditional methods like the Underwater Dark Channel Prior (UDCP)?",
+      "ground_truth": "The adaptive dark channel estimation algorithm can handle varying light attenuation rates in different water types, whereas traditional methods like UDCP are limited to specific conditions, such as the open ocean.",
       "question_type": "inferential",
       "source_chunk_id": "0f7aef5364d7b7ab",
       "source_page": 5,
@@ -380,9 +380,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "19a3bdea7574",
-      "question": "What is the relationship between transmittance and total attenuation coefficient, according to the literature?",
-      "ground_truth": "exponential",
+      "id": "a17fa726ce31",
+      "question": "What is the formula for the transmission map tc(x) when the mean value of the red channel is less than \u03c3?",
+      "ground_truth": "tc(x) = tgb(x) = 1 \u2212miny\u2208\u03a9(x)(min\u03bb\u2208gbI\u03bb(y)A\u03bb)",
       "question_type": "factual",
       "source_chunk_id": "4ea6b29b9f61da5d",
       "source_page": 5,
@@ -390,9 +390,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "d4bfe3dee623",
-      "question": "What implications does the introduction of the ratio of attenuation coefficients between green-red channels and blue-red channels have on the estimation algorithm for transmission maps?",
-      "ground_truth": "The introduction of the ratio of attenuation coefficients allows for the representation of the transmission of green and blue channels, enabling the estimation of their transmission maps.",
+      "id": "5a5ba10bfdba",
+      "question": "How does the choice of threshold \u03c3 (set to 56 in this paper) influence the calculation of transmission maps?",
+      "ground_truth": "The choice of threshold \u03c3 determines whether the transmission map is calculated using a simple formula (9) or a more complex algorithm (10), which in turn affects the representation of transmission for green and blue channels using ratios of attenuation coefficients (11-12).",
       "question_type": "inferential",
       "source_chunk_id": "4ea6b29b9f61da5d",
       "source_page": 5,
@@ -400,9 +400,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "796708a08e40",
-      "question": "What is the CPU model used for conducting experiments?",
-      "ground_truth": "Intel Core i7-13700k",
+      "id": "39182513e84f",
+      "question": "What is the name of the dataset used to evaluate the color correction capability of the proposed algorithms?",
+      "ground_truth": "UCCS",
       "question_type": "factual",
       "source_chunk_id": "9028240a9bfe50f0",
       "source_page": 6,
@@ -410,9 +410,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "72450f846952",
-      "question": "How many subsets of bluish, blue-green, and greenish tones does the UCCS dataset contain?",
-      "ground_truth": "three 100-images subsets",
+      "id": "1933ad750b51",
+      "question": "What is the name of the operating system used for conducting experiments?",
+      "ground_truth": "64-bit Windows 10",
       "question_type": "factual",
       "source_chunk_id": "9028240a9bfe50f0",
       "source_page": 6,
@@ -420,9 +420,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "29518ffe61f1",
-      "question": "How does the proposed method's ability to remove color cast impact its overall effectiveness in visual quality recovery of underwater images?",
-      "ground_truth": "A great amount of experiments prove that the proposed method has a significant contribution to the visual quality recovery of underwater images, suggesting that its ability to remove color cast is a key factor in its effectiveness.",
+      "id": "50de138a22cf",
+      "question": "What implications does the use of a guided image filter have on the quality of the recovered underwater image?",
+      "ground_truth": "The guided image filter helps to remove blocky artifacts caused by image block estimation, resulting in a clearer recovered underwater image.",
       "question_type": "inferential",
       "source_chunk_id": "9028240a9bfe50f0",
       "source_page": 6,
@@ -440,9 +440,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "ff8068905186",
-      "question": "What is the name of the figure that illustrates the distribution of pixel intensities across the three color channels?",
-      "ground_truth": "Fig. 5",
+      "id": "e0790d247e20",
+      "question": "What is the name of the figure that shows the visual comparison of the calibration results obtained through each algorithm?",
+      "ground_truth": "Fig. 4",
       "question_type": "factual",
       "source_chunk_id": "bfc29b846c6668e1",
       "source_page": 6,
@@ -450,9 +450,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "ca2f23a04954",
-      "question": "What can be inferred about the performance of the proposed method in comparison to the other algorithms, based on the analysis of RGB histograms in Fig. 5?",
-      "ground_truth": "The proposed algorithm exhibits a more balanced distribution across the RGB channels, with peak positions and intensity trends closely aligning with the ground truth, indicating effective color balance and reduced color cast.",
+      "id": "e1747dadc7b9",
+      "question": "How does the comparison of the proposed method with other color cast correction algorithms in the text suggest it will perform in real-world applications?",
+      "ground_truth": "The proposed method achieves color correction that more closely resembles real-world terrestrial images, ensuring a more natural and perceptually accurate enhancement, indicating it will perform well in real-world applications.",
       "question_type": "inferential",
       "source_chunk_id": "bfc29b846c6668e1",
       "source_page": 6,
@@ -460,8 +460,18 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "251a2997b073",
-      "question": "What is the unit of measurement on the X-axis of Fig. 5?",
+      "id": "2b4802ce9e2d",
+      "question": "What is the title of the figure in the research paper?",
+      "ground_truth": "Comparing RGB Tricolor Histograms",
+      "question_type": "factual",
+      "source_chunk_id": "2ff2fc72afc1ef92",
+      "source_page": 8,
+      "source_para": 0,
+      "source_file": "moac.pdf"
+    },
+    {
+      "id": "8cd63a51bfe6",
+      "question": "What is the unit of measurement on the X-axis in the figure?",
       "ground_truth": "Intensity",
       "question_type": "factual",
       "source_chunk_id": "2ff2fc72afc1ef92",
@@ -470,19 +480,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "89d25fd42330",
-      "question": "What color is used to represent the red channel in Fig. 5?",
-      "ground_truth": "Red",
-      "question_type": "factual",
-      "source_chunk_id": "2ff2fc72afc1ef92",
-      "source_page": 8,
-      "source_para": 0,
-      "source_file": "moac.pdf"
-    },
-    {
-      "id": "b920ea7c395c",
-      "question": "What implications can be inferred from the comparison of RGB tricolor histograms in Fig. 5?",
-      "ground_truth": "The comparison of RGB tricolor histograms in Fig. 5 suggests a relationship between the intensity and frequency of red, green, and blue channels, which may indicate differences in the characteristics of the images being analyzed.",
+      "id": "833cdab77cd4",
+      "question": "What might be the implication of the similar frequency distributions in the red, green, and blue channels?",
+      "ground_truth": "This could suggest that the RGB tricolor histogram is a robust representation of the image's color information, as the intensity of each channel is similarly distributed.",
       "question_type": "inferential",
       "source_chunk_id": "2ff2fc72afc1ef92",
       "source_page": 8,
@@ -510,9 +510,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "7c5f65a75213",
-      "question": "What might be the underlying reason for the CLUIE-Net method's failure to effectively restore color balance and clarity in underwater images with blue and green tones?",
-      "ground_truth": "The CLUIE-Net method's failure to effectively restore color balance and clarity in underwater images with blue and green tones is likely due to its inability to account for the selective color attenuation in underwater environments.",
+      "id": "957c07542282",
+      "question": "What can be inferred about the limitations of the CLUIE-Net method in processing underwater images with blue and green tones?",
+      "ground_truth": "The CLUIE-Net method fails to effectively restore the color balance and clarity of the images, particularly exhibiting severe color distortion and loss of true color information in images with green tones.",
       "question_type": "inferential",
       "source_chunk_id": "99ff428a2929e37f",
       "source_page": 11,
@@ -530,8 +530,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "899e1574e663",
-      "question": "What is the name of the dataset used for quantitative analysis of the performance of different methods?",
+      "id": "dfafb08a8da5",
+      "question": "What is the name of the dataset used to analyze the performance of different methods based on four evaluation metrics?",
       "ground_truth": "UIEB dataset",
       "question_type": "factual",
       "source_chunk_id": "d552abaa58988586",
@@ -540,9 +540,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "21be1e504afa",
-      "question": "What implications does the comparison of different methods in Fig. 7 have for the overall effectiveness of the proposed algorithm in underwater image enhancement?",
-      "ground_truth": "The comparison of different methods in Fig. 7 highlights the limitations of existing approaches, such as DCP, UDCP, MSRCR, L1, HLRP, TIP, CLUIE-Net, and RFMD, and demonstrates the superiority of the proposed algorithm in achieving better color restoration, contrast, and sharpness enhancement.",
+      "id": "9870ed501f2f",
+      "question": "What can be inferred about the limitations of the existing methods in underwater image enhancement, based on their performance in Fig. 7?",
+      "ground_truth": "The existing methods (DCP, UDCP, MSRCR, L1, HLRP, TIP, CLUIE-Net, RFMD) fail to effectively eliminate haze, introduce color casts, suffer from image hazing issues, are prone to overexposure, introduce red color casts, fail to fully correct color casts, produce images with color bias, and have weak dehazing capability.",
       "question_type": "inferential",
       "source_chunk_id": "d552abaa58988586",
       "source_page": 11,
@@ -550,8 +550,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "3e8642ea9e14",
-      "question": "What are the three key visual attributes of underwater images that UIQM quantifies?",
+      "id": "774f0915f85e",
+      "question": "What are the three key visual attributes of underwater images quantified by UIQM?",
       "ground_truth": "chroma, sharpness, and contrast",
       "question_type": "factual",
       "source_chunk_id": "d8d84f4344530b30",
@@ -560,9 +560,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "ffc01ad0c409",
-      "question": "What is the value of UIQM achieved by the proposed method?",
-      "ground_truth": "4.1383",
+      "id": "f37a7e275760",
+      "question": "What does a higher PCQI value indicate?",
+      "ground_truth": "better contrast quality",
       "question_type": "factual",
       "source_chunk_id": "d8d84f4344530b30",
       "source_page": 11,
@@ -570,9 +570,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "63c729f7d33d",
-      "question": "How does the performance of the proposed method in terms of information richness (Entropy) relate to its performance in terms of image quality (UIQM, UCIQE, PCQI)?",
-      "ground_truth": "The proposed method effectively enhances image quality, but ranks third in terms of information richness, suggesting a competitive level of information richness.",
+      "id": "764f9dfd4db5",
+      "question": "How does the proposed method's performance in terms of information richness (measured by Entropy) relate to its overall superior performance in image quality enhancement?",
+      "ground_truth": "The proposed method maintains a competitive level of information richness, ranking third in Entropy, which suggests that it effectively enhances image quality without compromising the amount of information retained in the image.",
       "question_type": "inferential",
       "source_chunk_id": "d8d84f4344530b30",
       "source_page": 11,
@@ -580,8 +580,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "aed8adc65e36",
-      "question": "What is the name of the research paper where this data is from?",
+      "id": "e22691574d3c",
+      "question": "What is the name of the research paper where this data is published?",
       "ground_truth": "Computers and Electrical Engineering 123 (2025)",
       "question_type": "factual",
       "source_chunk_id": "dfe776deb350b0a0",
@@ -590,9 +590,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "63de2beb56b8",
-      "question": "What is the UIQM value for the 'Ours' method?",
-      "ground_truth": "4.1383",
+      "id": "87a2cce964e6",
+      "question": "What is the name of the method that achieved the lowest UIQM score?",
+      "ground_truth": "L1",
       "question_type": "factual",
       "source_chunk_id": "dfe776deb350b0a0",
       "source_page": 11,
@@ -600,19 +600,29 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "00b8d1ea8d45",
-      "question": "How does the performance of the proposed method compare to the other methods in terms of UIQM and UCIQE metrics?",
-      "ground_truth": "According to Table 1, the proposed method outperforms most of the other methods in terms of UIQM, but its performance in UCIQE is comparable to some of the other methods.",
+      "id": "01411b662980",
+      "question": "How might the performance of the proposed method (Ours) in the UIEB dataset be related to its effectiveness in underwater environments?",
+      "ground_truth": "The performance of the proposed method (Ours) in the UIEB dataset is comparable to or better than other methods in terms of UIQM and UCIQE, suggesting that it may be effective in underwater environments.",
       "question_type": "inferential",
       "source_chunk_id": "dfe776deb350b0a0",
       "source_page": 11,
       "source_para": 3,
+      "source_file": "moac.pdf"
+    },
+    {
+      "id": "32f12ab9ce70",
+      "question": "What is shown in Fig. 8(a)?",
+      "ground_truth": "the state of clean water",
+      "question_type": "factual",
+      "source_chunk_id": "3269ac0c42cb895f",
+      "source_page": 12,
+      "source_para": 0,
       "source_file": "moac.pdf"
     },
     {
       "id": "a3cff31b9900",
       "question": "What is the range of turbidity in the first row of Fig. 9?",
-      "ground_truth": "2 NTU to 13 NTU",
+      "ground_truth": "from 2 NTU to 13 NTU",
       "question_type": "factual",
       "source_chunk_id": "3269ac0c42cb895f",
       "source_page": 12,
@@ -620,19 +630,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "35c847647965",
-      "question": "Where did the researchers conduct field experiments with the underwater camera?",
-      "ground_truth": "The Shanghai Salvage Bureau",
-      "question_type": "factual",
-      "source_chunk_id": "3269ac0c42cb895f",
-      "source_page": 12,
-      "source_para": 0,
-      "source_file": "moac.pdf"
-    },
-    {
-      "id": "1c9271d88c0d",
-      "question": "What implications does the performance of the system in high-turbidity environments have for its potential applications in salvage operations?",
-      "ground_truth": "The system's ability to effectively improve image quality in high-turbidity environments expands its application range and showcases its potential for practical use in salvage operations.",
+      "id": "3d0a4338a03a",
+      "question": "What can be inferred about the proposed system's limitations based on the experimental results in high-turbidity environments?",
+      "ground_truth": "The system can effectively improve image quality even in high-turbidity environments, but it may not be able to recover images that are nearly unviewable, as seen in Fig. 9(f) and Fig. 11.",
       "question_type": "inferential",
       "source_chunk_id": "3269ac0c42cb895f",
       "source_page": 12,
@@ -640,8 +640,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "824ca5eb2aee",
-      "question": "Where were underwater experiments conducted to test the proposed system?",
+      "id": "ddfecdd47147",
+      "question": "Where did the researchers conduct underwater experiments?",
       "ground_truth": "The South China Sea",
       "question_type": "factual",
       "source_chunk_id": "56c0421cb1b7badf",
@@ -650,9 +650,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "8d8622d4ef05",
-      "question": "What is one of the potential applications of the proposed system in underwater environments?",
-      "ground_truth": "marine biological research",
+      "id": "7463dd47b547",
+      "question": "What is the resolution of the underwater images used for running time comparisons?",
+      "ground_truth": "256 \u00d7 256, 512 \u00d7 512, and 1024 \u00d7 1024",
       "question_type": "factual",
       "source_chunk_id": "56c0421cb1b7badf",
       "source_page": 12,
@@ -660,9 +660,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "32ab27de7401",
-      "question": "What implications does the system's ability to enhance underwater images have for the broader field of marine research and exploration?",
-      "ground_truth": "The system's potential for integration into ROVs and AUVs could enhance their ability to achieve more precise target recognition and operational support in complex aquatic environments, ultimately advancing human exploration and utilization of the ocean.",
+      "id": "b55dc02a77ec",
+      "question": "What are the potential implications of integrating the system into ROVs and AUVs, and how might this impact human exploration and utilization of the ocean?",
+      "ground_truth": "The integration would offer strong technological support for advancing human exploration and utilization of the ocean, enhancing their ability to achieve more precise target recognition and operational support in complex aquatic environments.",
       "question_type": "inferential",
       "source_chunk_id": "56c0421cb1b7badf",
       "source_page": 12,
@@ -670,9 +670,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "009df650bfab",
-      "question": "How many compared methods were used in the evaluation?",
-      "ground_truth": "seven",
+      "id": "d654b3a83deb",
+      "question": "What is the resolution of the underwater images used for comparison?",
+      "ground_truth": "256 \u00d7 256, 512 \u00d7 512 and 1024 \u00d7 1024",
       "question_type": "factual",
       "source_chunk_id": "4fb716fae8e04aeb",
       "source_page": 12,
@@ -680,8 +680,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "54a6722d098e",
-      "question": "What is the running time of our method for an image with a size of 1024 \u00d7 1024?",
+      "id": "7dbd906312af",
+      "question": "How long does our method take to process an image with a size of 1024 \u00d7 1024?",
       "ground_truth": "1.081 s",
       "question_type": "factual",
       "source_chunk_id": "4fb716fae8e04aeb",
@@ -690,9 +690,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "bdd1dab67c17",
-      "question": "What does the comparison of running times between our method and other SOTA methods suggest about the trade-offs between performance and computational efficiency?",
-      "ground_truth": "The comparison suggests that our method achieves satisfactory results in terms of running time, indicating a potential trade-off between performance and computational efficiency, as seen in the ranking of methods for different image sizes.",
+      "id": "7853d6af6139",
+      "question": "How does the performance of our method in terms of running time relate to its ranking in the comparison with other SOTA methods?",
+      "ground_truth": "Our method achieves satisfactory results in terms of running time, which is reflected in its ranking, as it takes the first place in two out of three image sizes.",
       "question_type": "inferential",
       "source_chunk_id": "4fb716fae8e04aeb",
       "source_page": 12,
@@ -700,8 +700,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "a2ee25abbd9e",
-      "question": "What is the title of the paper where the processing results of different turbidity cup images are presented?",
+      "id": "3959aa244ede",
+      "question": "What is the title of the journal where the research was published?",
       "ground_truth": "Computers and Electrical Engineering",
       "question_type": "factual",
       "source_chunk_id": "b7e9dcc0e4250301",
@@ -710,9 +710,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "43d8f216484f",
-      "question": "In what year was the paper 'Computers and Electrical Engineering 123' published?",
-      "ground_truth": "2025",
+      "id": "9a1171517454",
+      "question": "What is the volume and page number of the journal where the research was published?",
+      "ground_truth": "123 (2025) 110228",
       "question_type": "factual",
       "source_chunk_id": "b7e9dcc0e4250301",
       "source_page": 13,
@@ -720,19 +720,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "377f491e42b9",
-      "question": "How might the results of the proposed algorithm impact the processing of turbidity cup images taken by the sink?",
-      "ground_truth": "The results of the proposed algorithm show significant improvement over the original images, suggesting that it can effectively process turbidity cup images taken by the sink.",
-      "question_type": "inferential",
-      "source_chunk_id": "b7e9dcc0e4250301",
-      "source_page": 13,
-      "source_para": 0,
-      "source_file": "moac.pdf"
-    },
-    {
-      "id": "64415bf7bcb0",
-      "question": "What is the running time of the proposed method for the 1024 \u00d7 1024 image size?",
-      "ground_truth": "1.081 seconds",
+      "id": "7a6ba2930fc5",
+      "question": "What is the running time of the HFM method for a 1024 \u00d7 1024 image?",
+      "ground_truth": "11.299 seconds",
       "question_type": "factual",
       "source_chunk_id": "4b9f8ece940d1928",
       "source_page": 14,
@@ -740,9 +730,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "8d1c6078a55b",
-      "question": "What is the running time of the HFM method for the 512 \u00d7 512 image size?",
-      "ground_truth": "3.991 seconds",
+      "id": "4f530584c6b5",
+      "question": "What is the running time of the Ours method for a 512 \u00d7 512 image?",
+      "ground_truth": "0.427 seconds",
       "question_type": "factual",
       "source_chunk_id": "4b9f8ece940d1928",
       "source_page": 14,
@@ -750,9 +740,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "1858532e93ab",
-      "question": "How does the performance of the proposed algorithm compare to the other methods in terms of running time, and what implications might this have for real-world applications?",
-      "ground_truth": "The proposed algorithm has the fastest running time among all the methods, with the exception of the 1024 \u00d7 1024 image size. This suggests that the proposed algorithm is efficient and could be suitable for real-time applications, but further investigation is needed to confirm its scalability to larger image sizes.",
+      "id": "4a99efb83bb9",
+      "question": "How does the performance of the proposed algorithm compare to the other methods in terms of running time, and what implications does this have for real-world applications?",
+      "ground_truth": "The proposed algorithm outperforms most other methods in terms of running time, with the fastest time being 0.396 seconds for the 256 \u00d7 256 image size. This suggests that the proposed algorithm is more efficient and could be more suitable for real-world applications where time is a critical factor.",
       "question_type": "inferential",
       "source_chunk_id": "4b9f8ece940d1928",
       "source_page": 14,
@@ -770,9 +760,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "d473b1997219",
-      "question": "What is the primary limitation of the -oMOAC component?",
-      "ground_truth": "limited contrast and suboptimal dehazing performance",
+      "id": "86236aa0f103",
+      "question": "What is the result of using only the multiscale optical attenuation compensation (-oMOAC) in the ablation study?",
+      "ground_truth": "it effectively corrects color distortion, leading to a more natural color balance",
       "question_type": "factual",
       "source_chunk_id": "80467b3eeb16e5a6",
       "source_page": 15,
@@ -780,9 +770,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "1258893c5f33",
-      "question": "How does the performance of -oMOAC compare to the proposed method in terms of dehazing, and what implications does this have for the overall effectiveness of the proposed method?",
-      "ground_truth": "The proposed method outperforms -oMOAC in terms of dehazing, as -oMOAC exhibits residual haze in the restored images, whereas the proposed method does not.",
+      "id": "6474039d0bff",
+      "question": "How does the performance of -oMOAC compare to the proposed method in terms of contrast and dehazing, and what implications does this have for the overall image restoration?",
+      "ground_truth": "The proposed method outperforms -oMOAC in terms of contrast and dehazing, as it achieves significantly better results with less residual haze in the restored images.",
       "question_type": "inferential",
       "source_chunk_id": "80467b3eeb16e5a6",
       "source_page": 15,
@@ -790,9 +780,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "6a38384d738c",
-      "question": "What is the proposed method's effect on the color distortion in underwater images?",
-      "ground_truth": "It effectively mitigates color distortion.",
+      "id": "6bf320769ddf",
+      "question": "What is the proposed method's core component that leads to a more balanced enhancement?",
+      "ground_truth": "both components",
       "question_type": "factual",
       "source_chunk_id": "965e8d745d8bab79",
       "source_page": 16,
@@ -800,9 +790,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "d86935e57085",
-      "question": "What is the proposed method's limitation in terms of processing speed?",
-      "ground_truth": "It requires further improvement in computational efficiency.",
+      "id": "4189dc60c06a",
+      "question": "What is the limitation of the proposed method?",
+      "ground_truth": "real-time image processing",
       "question_type": "factual",
       "source_chunk_id": "965e8d745d8bab79",
       "source_page": 16,
@@ -810,9 +800,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "8102507a43b2",
-      "question": "What might be the potential consequences of the proposed method's limited real-time image processing capability?",
-      "ground_truth": "It may require further improvement in computational efficiency in future work.",
+      "id": "225fd52d9669",
+      "question": "What might be a potential limitation of the proposed method's performance in real-world applications?",
+      "ground_truth": "Its limited computational efficiency in real-time image processing.",
       "question_type": "inferential",
       "source_chunk_id": "965e8d745d8bab79",
       "source_page": 16,
@@ -830,9 +820,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "792933152975",
-      "question": "How many references are cited in this paper?",
-      "ground_truth": "8",
+      "id": "bf8a122fa385",
+      "question": "What is the status of the data used in this research?",
+      "ground_truth": "confidential",
       "question_type": "factual",
       "source_chunk_id": "5528a136590bb0c5",
       "source_page": 16,
@@ -840,9 +830,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "0c0cf9eb60b9",
-      "question": "How might the confidentiality of the data used in this research impact the reproducibility and generalizability of the results?",
-      "ground_truth": "Given that the data used is confidential, it may be challenging for other researchers to access and replicate the findings, potentially limiting the reproducibility and generalizability of the results.",
+      "id": "dab7a3325586",
+      "question": "What implications does the confidentiality of the data used in the research have on the validity of the results presented in the cited papers?",
+      "ground_truth": "The confidentiality of the data may limit the ability to verify the results presented in the cited papers, potentially affecting the validity of the research.",
       "question_type": "inferential",
       "source_chunk_id": "5528a136590bb0c5",
       "source_page": 16,
@@ -850,8 +840,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "fd045b74ddc9",
-      "question": "What is the value of the 'oMOAC' model for the 'Entropy' metric on the UCCS dataset?",
+      "id": "fbbc8828c154",
+      "question": "What is the value of entropy for the UIQM model on the UCCS dataset?",
       "ground_truth": "7.1091",
       "question_type": "factual",
       "source_chunk_id": "93231b03e3783368",
@@ -860,9 +850,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "f41c2a3a50d9",
-      "question": "What is the value of the 'Proposed' model for the 'UCIQE' metric on the UIQS dataset?",
-      "ground_truth": "1.2330",
+      "id": "593cf0b55e57",
+      "question": "What is the value of PCQI for the -oADCD model on the EUVP dataset?",
+      "ground_truth": "0.7530",
       "question_type": "factual",
       "source_chunk_id": "93231b03e3783368",
       "source_page": 16,
@@ -870,9 +860,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "dc484b6b2b12",
-      "question": "How does the performance of the proposed model compare to the ablation models on the EUVP dataset?",
-      "ground_truth": "The proposed model performs better than the ablation models on the EUVP dataset, as indicated by its higher values for UIQM, UCIQE, PCQI, and Entropy.",
+      "id": "24e080133a85",
+      "question": "How do the results of the proposed model compare to the ablation models in terms of their ability to enhance underwater images?",
+      "ground_truth": "The proposed model outperforms the ablation models in terms of entropy, suggesting that it is more effective at enhancing underwater images.",
       "question_type": "inferential",
       "source_chunk_id": "93231b03e3783368",
       "source_page": 16,
@@ -880,9 +870,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "b61f2a2e10ae",
-      "question": "What is the value of the first number in the list?",
-      "ground_truth": "7.1246",
+      "id": "0238b3de1cdc",
+      "question": "What is the value of 0.3610?",
+      "ground_truth": "0.3610",
       "question_type": "factual",
       "source_chunk_id": "ca4b71b8856ac2f6",
       "source_page": 16,
@@ -890,9 +880,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "a7e53f743251",
-      "question": "What is the title of the research paper?",
-      "ground_truth": "Computers and Electrical Engineering",
+      "id": "0038b3396526",
+      "question": "What is the value of 7.5394?",
+      "ground_truth": "7.5394",
       "question_type": "factual",
       "source_chunk_id": "ca4b71b8856ac2f6",
       "source_page": 16,
@@ -900,9 +890,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "fc89d558abb2",
-      "question": "How might the values in the 'Proposed' section relate to the overall performance or results presented in the paper?",
-      "ground_truth": "The values in the 'Proposed' section may represent a comparison or improvement over the existing values, as they are presented separately and may indicate a new or alternative approach.",
+      "id": "9acd6908f1cd",
+      "question": "How does the Proposed method compare to the other methods in terms of the values presented?",
+      "ground_truth": "The Proposed method appears to have higher values compared to the other methods, suggesting it may be more effective.",
       "question_type": "inferential",
       "source_chunk_id": "ca4b71b8856ac2f6",
       "source_page": 16,
@@ -910,8 +900,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "d8b46b15c329",
-      "question": "What is the title of the 2011 research paper by He KM et al?",
+      "id": "8f61510f9bbc",
+      "question": "What is the title of the IEEE Trans Pattern Anal Mach Intell paper by He KM et al?",
       "ground_truth": "Single Image Haze Removal Using Dark Channel Prior",
       "question_type": "factual",
       "source_chunk_id": "78c70b520cacaa14",
@@ -920,9 +910,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "666379445b1b",
-      "question": "What is the title of the 2022 research paper by Zhuang P et al?",
-      "ground_truth": "Underwater Image Enhancement With Hyper-Laplacian Reflectance Priors",
+      "id": "2a9b303a9151",
+      "question": "In what year was the IEEE Trans Image Process paper by Li C et al published?",
+      "ground_truth": "2016",
       "question_type": "factual",
       "source_chunk_id": "78c70b520cacaa14",
       "source_page": 17,
@@ -930,9 +920,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "4bb1efd5e6a9",
-      "question": "How do the advancements in underwater image enhancement methods over the years relate to the increasing complexity of the techniques used?",
-      "ground_truth": "The advancements in underwater image enhancement methods over the years are reflected in the increasing complexity of the techniques used, from simple methods like Retinex processing (Rahman et al., 2004) to more complex methods like cascaded multi-level sub-networks and triple attention mechanism (Zhang et al., 2024).",
+      "id": "d053cb60434c",
+      "question": "How do the advancements in underwater image enhancement methods, as described in the recent papers [17], [18], and [19], relate to the earlier work on single image haze removal and retinex processing?",
+      "ground_truth": "The recent papers [17], [18], and [19] build upon the earlier work on single image haze removal and retinex processing by introducing new techniques such as lightweight cascaded networks, cascaded multi-level sub-networks, and weak-strong dual supervised learning, which demonstrate improved performance and robustness in underwater image enhancement.",
       "question_type": "inferential",
       "source_chunk_id": "78c70b520cacaa14",
       "source_page": 17,
@@ -940,9 +930,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "886893a04607",
-      "question": "What is the title of the research paper where this text chunk is from?",
-      "ground_truth": "Neural Netw 2024;169:685\u201397",
+      "id": "fe1e72d5140f",
+      "question": "What is the year of publication for the Neural Netw 2024 paper?",
+      "ground_truth": "2024",
       "question_type": "factual",
       "source_chunk_id": "2e972ff99c55184c",
       "source_page": 17,
@@ -950,9 +940,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "f658eaaa4d3a",
-      "question": "What is the DOI of the research paper where this text chunk is from?",
-      "ground_truth": "https://doi.org/10.1016/j.neunet.2023.11.008",
+      "id": "a486d749166f",
+      "question": "What is the title of reference [20]?",
+      "ground_truth": "Redundant Feature-Processing Module Based on Dual-Branch for Underwater Image Enhancement",
       "question_type": "factual",
       "source_chunk_id": "2e972ff99c55184c",
       "source_page": 17,
@@ -960,9 +950,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "0a4a3966c02a",
-      "question": "How do the recent advancements in underwater image enhancement methods (e.g., [19], [20], [23]) relate to the earlier work on dehazing and color restoration (e.g., [21], [22])?",
-      "ground_truth": "The recent advancements in underwater image enhancement methods build upon earlier work on dehazing and color restoration, as they address similar challenges and incorporate new techniques to improve image quality.",
+      "id": "1f90e4becbe0",
+      "question": "How does the recent trend in underwater image enhancement research, as indicated by the publication dates of the cited papers, reflect the field's progress and potential applications?",
+      "ground_truth": "The recent trend in underwater image enhancement research, as indicated by the publication dates of the cited papers, shows a significant increase in publications from 2021 onwards, suggesting rapid progress in the field and potential applications in real-world scenarios.",
       "question_type": "inferential",
       "source_chunk_id": "2e972ff99c55184c",
       "source_page": 17,
@@ -970,9 +960,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "94bbf91a3cfd",
-      "question": "What is the title of reference [25]?",
-      "ground_truth": "A hybrid method for underwater image correction",
+      "id": "fd32bb32bace",
+      "question": "What is the year of publication for the paper 'A hybrid method for underwater image correction'?",
+      "ground_truth": "2017",
       "question_type": "factual",
       "source_chunk_id": "e061bb06ff35b229",
       "source_page": 17,
@@ -980,9 +970,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "2871f2b1d5b0",
-      "question": "In which year was reference [32] published?",
-      "ground_truth": "2015",
+      "id": "25c5cda3d732",
+      "question": "What is the title of the conference where 'Shades of gray and colour constancy' was presented?",
+      "ground_truth": "12TH COLOR IMAGING CONFERENCE: COLOR SCIENCE AND ENGINEERING SYSTEMS, TECHNOLOGIES, APPLICATIONS",
       "question_type": "factual",
       "source_chunk_id": "e061bb06ff35b229",
       "source_page": 17,
@@ -990,9 +980,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "1f3f2a4f81e4",
-      "question": "How might the contributions of the authors in references [25] and [30] be related, given that they both deal with underwater image enhancement?",
-      "ground_truth": "The authors in references [25] and [30] may be contributing to the development of a comprehensive framework for underwater image enhancement, with [25] focusing on correction and [30] providing a benchmark dataset.",
+      "id": "5911e021ac7b",
+      "question": "How do the authors of [26] and [30] relate to each other in the context of underwater image enhancement?",
+      "ground_truth": "The authors of [26] and [30] are the same, indicating a potential overlap or continuation of their research in the area of underwater image enhancement.",
       "question_type": "inferential",
       "source_chunk_id": "e061bb06ff35b229",
       "source_page": 17,
@@ -1002,7 +992,7 @@
     {
       "id": "d1189be1e69a",
       "question": "What is Shuai Liu's current position?",
-      "ground_truth": "a PhD candidate",
+      "ground_truth": "PhD candidate",
       "question_type": "factual",
       "source_chunk_id": "e75e105b4afb63e1",
       "source_page": 17,
@@ -1020,9 +1010,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "6ab05a0494a1",
-      "question": "How might Shuai Liu's background in engineering from Shenyang Aerospace University and Shenyang Jianzhu University influence her current research interests in image denoising and image enhancement?",
-      "ground_truth": "Her background in engineering may have provided her with a strong foundation in technical skills and problem-solving abilities, which she is now applying to her research interests in image denoising and image enhancement.",
+      "id": "4893ca611744",
+      "question": "How might Shuai Liu's background and research interests influence the focus and approach of her current research on image denoising and enhancement?",
+      "ground_truth": "Given her BS and MS degrees in engineering from Shenyang Aerospace University and Shenyang Jianzhu University respectively, and her current research interests in image denoising and enhancement, it is likely that Shuai Liu's background in engineering and her experience in related fields will inform her approach to image enhancement, potentially leading to more practical and applicable solutions.",
       "question_type": "inferential",
       "source_chunk_id": "e75e105b4afb63e1",
       "source_page": 17,
@@ -1030,8 +1020,8 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "ac9d785463b8",
-      "question": "In what year did Peng Chen receive his BS degree from Tongji University?",
+      "id": "859905368153",
+      "question": "In which year did Peng Chen receive his BS degree from Tongji University?",
       "ground_truth": "2019",
       "question_type": "factual",
       "source_chunk_id": "4552dbd23e1882a8",
@@ -1040,9 +1030,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "26a881805194",
-      "question": "In what year did Jian-Yu Lan receive his PhD degree in power electronic from Shanghai Jiao Tong University?",
-      "ground_truth": "2015",
+      "id": "cb9366db23fb",
+      "question": "What is the current research interest of Jian-Yu Lan?",
+      "ground_truth": "RF circuit design, wireless power transmission and simultaneous wireless information and power transmission",
       "question_type": "factual",
       "source_chunk_id": "4552dbd23e1882a8",
       "source_page": 18,
@@ -1050,9 +1040,9 @@
       "source_file": "moac.pdf"
     },
     {
-      "id": "838abc14aca9",
-      "question": "What implications can be inferred from the fact that several researchers from Tongji University are working on various projects, including Integral Field Spectroscopy, RF circuit design, and ocean carbon isotope?",
-      "ground_truth": "It suggests that Tongji University may have a strong research focus or infrastructure that supports interdisciplinary collaboration and diverse research interests.",
+      "id": "557d28d2c830",
+      "question": "What can be inferred about the research environment and collaboration at Tongji University based on the degrees and affiliations of the mentioned researchers?",
+      "ground_truth": "It appears that Tongji University has a strong research environment with a high level of collaboration among its faculty members, as several researchers have degrees from the university and are currently affiliated with it, indicating a potential for interdisciplinary research and knowledge sharing.",
       "question_type": "inferential",
       "source_chunk_id": "4552dbd23e1882a8",
       "source_page": 18,
