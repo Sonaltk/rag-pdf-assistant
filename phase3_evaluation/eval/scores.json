@@ -1,0 +1,40 @@
+{
+  "phase1": {
+    "pipeline": "phase1",
+    "num_pairs": 10,
+    "num_scored": 8,
+    "faithfulness": 0.9543,
+    "answer_relevancy": 0.7756,
+    "context_precision": 0.7339,
+    "context_recall": 0.8333,
+    "evaluated_at": "2026-03-09T12:06:27.220029"
+  },
+  "phase2": {
+    "pipeline": "phase2",
+    "num_pairs": 10,
+    "num_scored": 10,
+    "faithfulness": 0.8472,
+    "answer_relevancy": 0.98,
+    "context_precision": 0.9554,
+    "context_recall": 0.95,
+    "evaluated_at": "2026-03-13T00:11:50.010056"
+  },
+  "dataset_info": {
+    "source_pdf": "moac.pdf",
+    "total_pairs": 54,
+    "question_types": {
+      "factual": 24,
+      "inferential": 30
+    },
+    "curated_by": "DatasetCurator",
+    "created_at": "2026-03-08T21:28:12.040110",
+    "status": "curated — ready for evaluation",
+    "filters_applied": {
+      "min_question_length": 15,
+      "min_answer_length": 30,
+      "max_answer_length": 1000
+    }
+  }
+}
+
+
