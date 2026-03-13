@@ -3,34 +3,34 @@
 =================================================================
 
 SOURCE PDF    : moac.pdf
-TOTAL QA PAIRS: 54
-PAIRS SCORED  : 8 per pipeline
-QUESTION TYPES: {'factual': 24, 'inferential': 30}
-GENERATED AT  : 2026-03-13 11:09
+TOTAL QA PAIRS: 58
+PAIRS SCORED  : 10 per pipeline
+QUESTION TYPES: {'factual': 28, 'inferential': 30}
+GENERATED AT  : 2026-03-13 14:28
 
 -----------------------------------------------------------------
 METRIC                    PHASE 1    PHASE 2     CHANGE  TREND
 -----------------------------------------------------------------
-Faithfulness               0.9543     0.8472  -0.1071  ⚠️  -11.2%
-Answer Relevancy           0.7756     0.9800 +  0.2044  ✅ ++26.4%
-Context Precision          0.7339     0.9554 +  0.2215  ✅ ++30.2%
-Context Recall             0.8333     0.9500 +  0.1167  ✅ ++14.0%
+Faithfulness               0.8407     0.7748  -0.0659  ⚠️  -7.8%
+Answer Relevancy           0.9063     0.8485  -0.0578  ⚠️  -6.4%
+Context Precision          0.7404     0.9303 +  0.1899  ✅ ++25.6%
+Context Recall             0.9444     1.0000 +  0.0556  ✅ ++5.9%
 -----------------------------------------------------------------
-AVERAGE                    0.8243     0.9331 +  0.1088  ✅ ++13.2%
+AVERAGE                    0.8579     0.8884 +  0.0305  ➡️  +3.6%
 =================================================================
 
 KEY FINDINGS
 -----------------------------------------------------------------
 
 Improved in Phase 2:
-  ✅ Answer Relevancy       improved by +26.4%
-  ✅ Context Precision      improved by +30.2%
-  ✅ Context Recall         improved by +14.0%
+  ✅ Context Precision      improved by +25.6%
+  ✅ Context Recall         improved by +5.9%
 
 Slightly lower in Phase 2:
-  ⚠️  Faithfulness           changed by -11.2%
+  ⚠️  Faithfulness           changed by -7.8%
       Note: Phase 2 generates longer, more detailed answers
       which RAGAS evaluates more strictly. This is expected.
+  ⚠️  Answer Relevancy       changed by -6.4%
 
 -----------------------------------------------------------------
 METRIC DEFINITIONS
@@ -59,7 +59,7 @@ Confidence tracking       None                 HIGH/MEDIUM/LOW
 -----------------------------------------------------------------
 CONCLUSION
 -----------------------------------------------------------------
-Phase 2 outperforms Phase 1 with an average improvement of +13.2% across all RAGAS metrics.
+Phase 2 outperforms Phase 1 with an average improvement of +3.6% across all RAGAS metrics.
 
 The most significant improvements are in Answer Relevancy and
 Context Precision — confirming that hybrid retrieval with Cohere
