@@ -6,7 +6,7 @@ SOURCE PDF    : moac.pdf
 TOTAL QA PAIRS: 58
 PAIRS SCORED  : 10 per pipeline
 QUESTION TYPES: {'factual': 28, 'inferential': 30}
-GENERATED AT  : 2026-03-13 14:28
+GENERATED AT  : 2026-06-27 11:18
 
 -----------------------------------------------------------------
 METRIC                    PHASE 1    PHASE 2     CHANGE  TREND
