@@ -73,12 +73,12 @@ def reciprocal_rank_fusion(
 # Hybrid Retriever
 # ─────────────────────────────────────────
 class HybridRetriever:
-    def __init__(self):
+    def __init__(self, collection_name: str = None):
         validate_settings()
 
         # Initialize both retrievers
         self.bm25_retriever = BM25Retriever()
-        self.vector_retriever = VectorRetriever()
+        self.vector_retriever = VectorRetriever(collection_name=collection_name)
 
         # Try loading BM25 index from disk
         loaded = self.bm25_retriever.load_index()

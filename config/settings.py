@@ -14,7 +14,8 @@ COHERE_API_KEY = os.getenv("COHERE_API_KEY")       # Phase 2 — re-ranking
 # ─────────────────────────────────────────
 # Model Config
 # ─────────────────────────────────────────
-LLM_MODEL = "llama-3.1-8b-instant"                # Groq LLM (free)
+#LLM_MODEL = "llama-3.1-8b-instant" 
+LLM_MODEL = "groq/compound-mini"               # Groq LLM (free)
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"              # HuggingFace local embeddings (free)
 RERANK_MODEL = "rerank-english-v3.0"              # Cohere re-ranking model
 

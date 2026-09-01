@@ -269,14 +269,14 @@ class MultimodalRetriever:
       Consistent with how we stored figure chunks
     """
 
-    def __init__(self, pdf_path: str):
+    def __init__(self, pdf_path: str, collection_name: str = None):
         """
         Args:
             pdf_path: needed to load figure metadata
                       so we can return image paths
         """
         from phase2_production.generation.graph import RAGGraph
-        self.graph    = RAGGraph()
+        self.graph    = RAGGraph(collection_name=collection_name)
         self.pdf_path = pdf_path
 
         # Load figure metadata for image path lookup

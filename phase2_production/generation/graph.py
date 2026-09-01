@@ -99,11 +99,11 @@ def get_source_info(chunks: List[RerankedChunk]) -> dict:
 
 
 class RAGGraph:
-    def __init__(self):
+    def __init__(self ,collection_name: str = None):
         validate_phase2_settings()
 
         # Initialize all components
-        self.hybrid_retriever = HybridRetriever()
+        self.hybrid_retriever = HybridRetriever( collection_name=collection_name)
         self.reranker = Reranker()
         self.citation_enforcer = CitationEnforcer()
         self.llm = ChatGroq(

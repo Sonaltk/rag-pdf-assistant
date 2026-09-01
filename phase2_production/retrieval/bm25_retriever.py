@@ -24,10 +24,12 @@ class BM25Result:
 # BM25 Retriever
 # ─────────────────────────────────────────
 class BM25Retriever:
-    def __init__(self):
+    # NEW
+    def __init__(self, index_path: str = None):
         self.bm25 = None
-        self.chunks_metadata = []   # stores chunk metadata parallel to BM25 index
+        self.chunks_metadata = []
         self.is_loaded = False
+        self.index_path = index_path or BM25_INDEX_PATH
 
     def build_index(self, chunks: list) -> None:
         """
@@ -62,8 +64,8 @@ class BM25Retriever:
 
     def _save_index(self) -> None:
         """Save chunk metadata to disk so we don't rebuild every time."""
-        os.makedirs(os.path.dirname(BM25_INDEX_PATH), exist_ok=True)
-        with open(BM25_INDEX_PATH, "w") as f:
+        os.makedirs(os.path.dirname(self.index_path), exist_ok=True)
+        with open(self.index_path, "w") as f:
             json.dump(self.chunks_metadata, f, indent=2)
 
     def load_index(self) -> bool:
@@ -71,12 +73,12 @@ class BM25Retriever:
         Load chunk metadata from disk and rebuild BM25 index.
         Returns True if successful, False if index doesn't exist.
         """
-        if not os.path.exists(BM25_INDEX_PATH):
-            print(f"[BM25] No saved index found at {BM25_INDEX_PATH}")
+        if not os.path.exists(self.index_path):
+            print(f"[BM25] No saved index found at {self.index_path}")
             print(f"[BM25] Run build_index() first")
             return False
 
-        with open(BM25_INDEX_PATH, "r") as f:
+        with open(self.index_path, "r") as f:
             self.chunks_metadata = json.load(f)
 
         # Rebuild BM25 from saved text

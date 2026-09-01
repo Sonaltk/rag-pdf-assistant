@@ -13,7 +13,7 @@ from typing import List
 
 
 class Embedder:
-    def __init__(self):
+    def __init__(self, collection_name: str = None):
         validate_settings()
 
         print(f"[Embedder] Loading embedding model {EMBEDDING_MODEL}...")
@@ -29,9 +29,10 @@ class Embedder:
             settings=Settings(anonymized_telemetry=False)
         )
 
+        name = collection_name or CHROMA_COLLECTION_NAME
         self.collection = self.chroma_client.get_or_create_collection(
-            name=CHROMA_COLLECTION_NAME,
-            metadata={"hnsw:space": "cosine"}
+            name     = name,
+            metadata = {"hnsw:space": "cosine"}
         )
 
         print(f"[Embedder] Connected to ChromaDB at {CHROMA_DB_PATH}")

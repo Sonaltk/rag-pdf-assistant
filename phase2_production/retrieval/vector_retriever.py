@@ -24,22 +24,24 @@ class VectorResult:
 
 
 class VectorRetriever:
-    def __init__(self):
+    def __init__(self, collection_name: str = None):
         validate_settings()
 
+        name = collection_name or CHROMA_COLLECTION_NAME
+
         self.embedding_model = HuggingFaceEmbeddings(
-            model_name=EMBEDDING_MODEL,
-            model_kwargs={"device": "cpu"},
-            encode_kwargs={"normalize_embeddings": True}
+            model_name   = EMBEDDING_MODEL,
+            model_kwargs = {"device": "cpu"},
+            encode_kwargs = {"normalize_embeddings": True}
         )
 
         self.chroma_client = chromadb.PersistentClient(
-            path=CHROMA_DB_PATH,
-            settings=Settings(anonymized_telemetry=False)
+            path     = CHROMA_DB_PATH,
+            settings = Settings(anonymized_telemetry=False)
         )
 
         self.collection = self.chroma_client.get_collection(
-            name=CHROMA_COLLECTION_NAME
+            name = name
         )
 
         print(f"[Vector] Connected to ChromaDB — {self.collection.count()} chunks available")

@@ -1,5 +1,13 @@
 import streamlit as st
 from pathlib import Path
+from auth.auth import init_auth_state, is_logged_in, render_auth_sidebar
+
+init_auth_state()
+render_auth_sidebar()
+
+if not is_logged_in():
+    st.warning("👈 Please login first using the Login page in the sidebar.")
+    st.stop()
 
 
 # ─────────────────────────────────────────

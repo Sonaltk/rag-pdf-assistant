@@ -44,7 +44,7 @@ ANSWER (with inline citations after every key claim):
 # RAG Chain — full pipeline
 # ─────────────────────────────────────────
 class RAGChain:
-    def __init__(self):
+    def __init__(self, collection_name: str = None):
         validate_settings()
 
         # Groq LLM
@@ -56,7 +56,7 @@ class RAGChain:
         )
 
         # Retriever
-        self.retriever = Retriever()
+        self.retriever = Retriever(collection_name=collection_name)
 
         # Output parser
         self.parser = StrOutputParser()
